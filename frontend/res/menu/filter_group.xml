@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/check_all"
+        android:icon="@drawable/ic_menu_check_all"
+        android:title="@string/check_all"/>
+    <item
+        android:id="@+id/uncheck_all"
+        android:icon="@drawable/ic_menu_uncheck_all"
+        android:title="@string/uncheck_all"/>
+
+</menu>
