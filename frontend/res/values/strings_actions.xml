@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="send_test_sms_label">Send SMS</string>
+    <string name="send_test_sms_desc">This action will send a SMS to a phone number chosen by you. Operator charges may apply.</string>
+    <string name="send">Send</string>
+    <string name="send_test_sms_title">Send SMS</string>
+    <string name="send_test_sms_dialog_label">Choose the phone number to receive the message.</string>
+    <string name="send_test_sms_sms_text">This SMS was sent from PermissionExplorer.</string>
+    <string name="call_phone_label">Make a call</string>
+    <string name="call">Call</string>
+    <string name="call_phone_desc">This action will make a call to a phone number chosen by you. Operator charges may apply.</string>
+    <string name="call_phone_title">Call phone</string>
+    <string name="call_phone_dialog_label">Choose the mobile number to make the call.</string>
+    <string name="read_contact_label">Get information about a contact</string>
+    <string name="read_contact_title">Contact information</string>
+    <string name="read_phone_state_label">Phone state information</string>
+    <string name="read_phone_state_desc">This action will access confidential information about your phone.</string>
+    <string name="read_phone_state_title">Phone state information</string>
+    <string name="access_fine_location_label">Check current location</string>
+    <string name="access_fine_location_title">Your current location</string>
+    <string name="internet_access_label">Internet access</string>
+    <string name="internet_access_desc">This action will use your Internet connection to access a web page. Operator data charges may apply, if you are on 3G.</string>
+    <string name="network_state_label">Wi-Fi/3G access</string>
+    <string name="wifi_state_label">Change Wi-Fi state</string>
+    <string name="write_settings_label">Change airplane mode state</string>
+    <string name="write_settings_desc">This action will change the airplane mode state. All your network 
+	connections will be shutdown.</string>
+    <string name="write_external_storage_label">Create File in SD Card</string>
+    <string name="write_external_storage_desc">This action will create a file containing, the name of all the pictures in your SD Card.</string>
+    <string name="write_external_file_storage"> A file,named PermissionExplorer was created. Please check your SDCARD</string>
+    <string name="write_external_file_no_photos">There are no pictures are available in your SDCard</string>
+    <string name="vibrate_action_label">Make phone vibrate</string>
+    <string name="take_picture_label">Take picture</string>
+    <string name="take_picture_image">Camera picture</string>
+    <string name="read_calendar_label">Read calendar</string>
+    <string name="read_calendar_title">An event from your calendar</string>
+    <string name="write_calendar_label">Write calendar</string>
+    <string name="retrive_running_tasks_label">Current running tasks</string>
+    <string name="get_accounts_label">Get accounts</string>
+    <string name="get_accounts_tile">Your accounts</string>
+    <string name="reboot_label">Reboot device</string>
+    <string name="reboot_desc">This action will make your device reboot. Make sure to save all your work before continuing.</string>
+    <string name="no_root">It appears that your phone isn\'t rooted. This action requires a rooted phone.</string>
+    <string name="shell_command_label">Execute shell command</string>
+    <string name="shell_command_desc">This action will prompt you to write a shell command to be executed as root. This can be VERY dangerous. Don\'t do this unless you know what you\'re doing.</string>
+    <string name="shell_command_output">Command output</string>
+    <string name="shell_command_input_msg">Input the shell command to execute:</string>
+    <string name="shell_command_input_title">Root command</string>
+    <string name="access_fine_location_retr">GPS is enabled. Retrieving your current location…</string>
+    <string name="access_fine_location_coord">Latitude:\n%1$f\nLongitude:\n%2$f</string>
+    <string name="access_fine_location_not_enabled">Your GPS is not enabled! Please turn it on.</string>
+    <string name="network_state_wifi_on">Wi-Fi is on. </string>
+    <string name="network_state_mobile_on">Your mobile data connection is on. </string>
+    <string name="network_state_connected">You are connected to the Internet.</string>
+    <string name="network_state_not_connected">You are not connected.</string>
+    <string name="wifi_state_shutdown">Wi-Fi was shutdown!</string>
+    <string name="wifi_state_activated">Wi-Fi was activated!</string>
+    <string name="get_accounts_intro">Your current accounts:\n</string>
+    <string name="get_accounts_entry">Name: %1$s\nType: %2$s\n</string>
+    <string name="retrieve_running_tasks_intro">Running tasks:\n</string>
+    <string name="read_calendar_entry">Title:\n%1$s\nBegin:\n%2$s\nEnd:\n%3$s</string>
+    <string name="read_contact_entry">Name:\n%1$s\nPhone number:\n%2$s</string>
+    <string name="phone_number_not_available">Phone number not available</string>
+    <string name="read_phone_state_entry">IMEI:\n%1$s\nPhone number:\n%2$s\nSoftware version:\n%3$s\nSIM Serial:\n%4$s\nSubscriber ID:\n%5$s</string>
+    <string name="write_calendar_success">New calendar event was created successfully.</string>
+    <string name="write_calendar_event_title">Permission Explorer created event.</string>
+    <string name="write_calendar_event_desc">Permission Explorer</string>
+    <string name="write_calendar_event_location">Permission Explorer</string>
+    <string name="write_settings_changed_msg">Airplane mode has changed!</string>
+
+</resources>

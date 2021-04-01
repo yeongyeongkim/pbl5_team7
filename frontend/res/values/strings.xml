@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Permission Explorer</string>
+    <string name="dialog_msg_action_warn">%s\nDo you want to continue?</string>
+    <string name="continue_">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="warning">Warning</string>
+    <string name="tab_detailed_info">Info</string>
+    <string name="tab_actions_list">Examples</string>
+    <string name="tab_apps_list">Apps</string>
+    <string name="msg_filter">type to filter</string>
+    <string name="msg_perm_list_count">Listing %d permission(s). You can adjust the filtering options in the menu.</string>
+    <string name="tab_filter_groups">By group</string>
+    <string name="tab_filter_level">By level</string>
+    <string name="tab_filter_relevance">By relevance</string>
+
+    <string-array name="level_labels">
+        <item>normal</item>
+        <item>dangerous</item>
+        <item>signature</item>
+        <item>signatureOrSystem</item>
+    </string-array>
+
+    <string name="menu_filter">Filter</string>
+    <string name="menu_reload">Reload data</string>
+
+    <string-array name="level_descriptions">
+        <item>A \"normal\" permission is a lower-risk permission that gives an application access to isolated application-level features, with minimal risk to other applications, the system, or the user. The system automatically grants this type of permission to a requesting application at installation, without asking for the user\'s explicit approval (though the user always has the option to review these permissions before installing).</item>
+        <item>A \"dangerous\" permission is a higher-risk permission that would give a requesting application access to private user data or control over the device that can negatively impact the user. Because this type of permission introduces potential risk, the system may not automatically grant it to the requesting application. For example, any dangerous permissions requested by an application may be displayed to the user and require confirmation before proceeding, or some other approach may be taken to avoid the user automatically allowing the use of such facilities.</item>
+        <item>A \"signature\" permission is a permission that the system is to grant only if the requesting application is signed with the same certificate as the application that declared the permission. If the certificates match, the system automatically grants the permission without notifying the user or asking for the user\'s explicit approval.</item>
+        <item>A \"signatureOrSystem\" permission that the system is to grant only to packages in the Android system image or that are signed with the same certificates. Please avoid using this option, as the signature protection level should be sufficient for most needs and works regardless of exactly where applications are installed. This permission is used for certain special situations where multiple vendors have applications built in to a system image which need to share specific features explicitly because they are being built together.</item>
+    </string-array>
+
+    <string name="msg_filter_level">Only show permissions with protection level equal or above to:</string>
+    <string name="msg_filter_relevance">Only show permissions with this relevance:</string>
+
+    <string-array name="relevance_labels">
+        <item>all</item>
+        <item>system</item>
+        <item>common</item>
+    </string-array>
+    <string-array name="relevance_descriptions">
+        <item>Show all permissions declared in this device, including custom ones defined by installed applications. Any application may define and enforce its own permissions, so this is not a comprehensive list of all possible permissions existant and some of them can have little to no information associated.</item>
+        <item>Show all permissions declared by the Android system. Those permissions are defined in all Android devices and can be requested by any application. This explorer may not have extended information on some permissions due to some of them being uncommon.</item>
+        <item>Show only the permissions most commonly requested by applications.</item>
+    </string-array>
+
+    <string name="protection_level">Protection level</string>
+    <string name="permission_group">Permission group</string>
+    <string name="description">Description</string>
+    <string name="name">Name</string>
+    <string name="check_all">Check all</string>
+    <string name="uncheck_all">Uncheck all</string>
+    <string name="show_all_apps">Show all apps</string>
+    <string name="show_only_downloaded_apps">Show only downloaded apps</string>
+    <string name="no_info_available">No additional information available.</string>
+    <string name="ok">OK</string>
+    <string name="close">Close</string>
+    <string name="execute">Execute</string>
+    <string name="no_actions_available">No actions available.</string>
+    <string name="app_icon">App icon</string>
+
+</resources>
