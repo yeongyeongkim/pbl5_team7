@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.project_UI_03" >
+
+    <application
+        android:name="com.e.project_UI_03.app_data"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.01" >
+
+        <activity
+            android:name="com.e.project_UI_03.menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.01.NoActionBar" >
+        </activity>
+        <activity android:name="com.e.project_UI_03.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.e.project_UI_03.app_auth_list"/>
+        <activity android:name="com.e.project_UI_03.loading"/>
+        <activity android:name="com.e.project_UI_03.auth_setting_popup"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.e.project_UI_03.apk_list_activity"/>
+        <activity android:name="com.e.project_UI_03.lv1_more"/>
+        <activity android:name="com.e.project_UI_03.lv2_more"/>
+        <activity android:name="com.e.project_UI_03.lv3_more"/>
+
+    </application>
+
+</manifest>

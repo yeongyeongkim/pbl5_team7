@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="ratio">
+        <item>30%</item>
+        <item>50%</item>
+        <item>70%</item>
+    </string-array>
+</resources>
