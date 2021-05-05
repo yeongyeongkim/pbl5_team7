@@ -1,4 +1,4 @@
-package com.e.project_UI_03;
+package com.e.project_UI_03.collector;
 
 import android.app.Activity;
 import androidx.appcompat.app.AlertDialog;
@@ -10,6 +10,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.e.project_UI_03.R;
+import com.e.project_UI_03.UI.auth_setting_popup;
 
 public class app_auth_list extends Activity implements OnClickListener {
     TextView appLabel;

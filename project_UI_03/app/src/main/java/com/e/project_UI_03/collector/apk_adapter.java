@@ -1,4 +1,4 @@
-package com.e.project_UI_03;
+package com.e.project_UI_03.collector;
 
 import java.util.List;
 import android.app.Activity;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.e.project_UI_03.R;
 
 public class apk_adapter extends BaseAdapter {
 

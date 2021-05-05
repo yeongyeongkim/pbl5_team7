@@ -1,8 +1,10 @@
-package com.e.project_UI_03;
+package com.e.project_UI_03.UI;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.e.project_UI_03.R;
 
 public class loading extends Activity {
     @Override

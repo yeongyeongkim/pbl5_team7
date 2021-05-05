@@ -1,4 +1,4 @@
-package com.e.project_UI_03;
+package com.e.project_UI_03.UI;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,10 +9,16 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
+
+import com.e.project_UI_03.R;
+import com.e.project_UI_03.collector.apk_adapter;
+import com.e.project_UI_03.collector.app_auth_list;
+import com.e.project_UI_03.collector.app_data;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class lv2_more extends Activity implements OnItemClickListener {
+public class lv3_more extends Activity implements OnItemClickListener {
 
     PackageManager packageManager;
     ListView apkList;
@@ -20,7 +26,7 @@ public class lv2_more extends Activity implements OnItemClickListener {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.lv2_more);
+        setContentView(R.layout.lv3_more);
 
         packageManager = getPackageManager();
         List<PackageInfo> packageList = packageManager.getInstalledPackages( PackageManager.GET_UNINSTALLED_PACKAGES | PackageManager.GET_DISABLED_COMPONENTS);

@@ -4,7 +4,7 @@
     package="com.e.project_UI_03" >
 
     <application
-        android:name="com.e.project_UI_03.app_data"
+        android:name="com.e.project_UI_03.collector.app_data"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,25 +13,25 @@
         android:theme="@style/Theme.01" >
 
         <activity
-            android:name="com.e.project_UI_03.menu"
+            android:name="com.e.project_UI_03.UI.menu"
             android:label="@string/title_activity_menu"
             android:theme="@style/Theme.01.NoActionBar" >
         </activity>
-        <activity android:name="com.e.project_UI_03.MainActivity" >
+        <activity android:name="com.e.project_UI_03.UI.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.e.project_UI_03.app_auth_list"/>
-        <activity android:name="com.e.project_UI_03.loading"/>
-        <activity android:name="com.e.project_UI_03.auth_setting_popup"
+        <activity android:name="com.e.project_UI_03.collector.app_auth_list"/>
+        <activity android:name="com.e.project_UI_03.UI.loading"/>
+        <activity android:name="com.e.project_UI_03.UI.auth_setting_popup"
             android:theme="@android:style/Theme.Dialog"/>
-        <activity android:name="com.e.project_UI_03.apk_list_activity"/>
-        <activity android:name="com.e.project_UI_03.lv1_more"/>
-        <activity android:name="com.e.project_UI_03.lv2_more"/>
-        <activity android:name="com.e.project_UI_03.lv3_more"/>
+        <activity android:name="com.e.project_UI_03.collector.apk_list_activity"/>
+        <activity android:name="com.e.project_UI_03.UI.lv1_more"/>
+        <activity android:name="com.e.project_UI_03.UI.lv2_more"/>
+        <activity android:name="com.e.project_UI_03.UI.lv3_more"/>
 
     </application>
 

@@ -1,4 +1,4 @@
-package com.e.project_UI_03;
+package com.e.project_UI_03.UI;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,12 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-public class apk_list_activity extends Activity implements OnItemClickListener {
+import com.e.project_UI_03.R;
+import com.e.project_UI_03.collector.apk_adapter;
+import com.e.project_UI_03.collector.app_auth_list;
+import com.e.project_UI_03.collector.app_data;
+
+public class lv1_more extends Activity implements OnItemClickListener {
 
     PackageManager packageManager;
     ListView apkList;
@@ -20,14 +25,14 @@ public class apk_list_activity extends Activity implements OnItemClickListener {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.app_list);
+        setContentView(R.layout.lv1_more);
 
         packageManager = getPackageManager();
         List<PackageInfo> packageList = packageManager.getInstalledPackages( PackageManager.GET_UNINSTALLED_PACKAGES | PackageManager.GET_DISABLED_COMPONENTS);
         List<PackageInfo> packageList1 = new ArrayList<PackageInfo>();
-
         for (PackageInfo packageInfo : packageList) {
             Intent intent = getPackageManager().getLaunchIntentForPackage(packageInfo.packageName);
+            // 조건 추가
             if (intent!=null) {
                 packageList1.add(packageInfo);
             }

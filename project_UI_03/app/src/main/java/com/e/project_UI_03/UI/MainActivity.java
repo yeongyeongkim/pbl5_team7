@@ -1,4 +1,4 @@
-package com.e.project_UI_03;
+package com.e.project_UI_03.UI;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+
+import com.e.project_UI_03.R;
+import com.e.project_UI_03.collector.apk_list_activity;
 
 public class MainActivity extends Activity implements OnClickListener{
 

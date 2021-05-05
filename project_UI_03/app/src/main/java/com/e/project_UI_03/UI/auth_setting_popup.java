@@ -1,4 +1,4 @@
-package com.e.project_UI_03;
+package com.e.project_UI_03.UI;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
+
+import com.e.project_UI_03.R;
 
 
 public class auth_setting_popup extends Activity implements View.OnClickListener {

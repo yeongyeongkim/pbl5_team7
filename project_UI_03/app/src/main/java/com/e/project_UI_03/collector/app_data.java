@@ -1,4 +1,4 @@
-package com.e.project_UI_03;
+package com.e.project_UI_03.collector;
 
 import android.app.Application;
 import android.content.pm.PackageInfo;
