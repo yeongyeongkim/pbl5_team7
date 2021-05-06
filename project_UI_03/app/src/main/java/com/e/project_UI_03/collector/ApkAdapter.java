@@ -13,13 +13,13 @@ import android.widget.TextView;
 
 import com.e.project_UI_03.R;
 
-public class apk_adapter extends BaseAdapter {
+public class ApkAdapter extends BaseAdapter {
 
     List<PackageInfo> packageList;
     Activity context;
     PackageManager packageManager;
 
-    public apk_adapter(Activity context, List<PackageInfo> packageList, PackageManager packageManager) {
+    public ApkAdapter(Activity context, List<PackageInfo> packageList, PackageManager packageManager) {
         super();
         this.context = context;
         this.packageList = packageList;

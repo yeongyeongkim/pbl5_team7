@@ -3,7 +3,7 @@ package com.e.project_UI_03.collector;
 import android.app.Application;
 import android.content.pm.PackageInfo;
 
-public class app_data extends Application {
+public class AppData extends Application {
 
     PackageInfo packageInfo;
 

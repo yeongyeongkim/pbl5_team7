@@ -6,7 +6,7 @@ import android.os.Handler;
 
 import com.e.project_UI_03.R;
 
-public class loading extends Activity {
+public class Loading extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
