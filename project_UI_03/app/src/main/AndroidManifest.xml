@@ -12,14 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.01" >
 
-        <activity android:name="com.e.project_UI_03.UI.MainActivity" >
+        <activity android:name="com.e.project_UI_03.view.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.e.project_UI_03.UI.ApkInfo"/>
-        <activity android:name="com.e.project_UI_03.UI.Loading"/>
+        <activity android:name="com.e.project_UI_03.view.Custom"/>
+        <activity android:name="com.e.project_UI_03.view.ApkInfo"/>
+        <activity android:name="com.e.project_UI_03.view.Loading"/>
 
     </application>
 
