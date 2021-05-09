@@ -50,7 +50,7 @@ public class app_auth_list extends Activity {
             permissions
                     .setText(getPermissions(packageInfo.requestedPermissions));
         else
-            permissions.setText("-");
+            permissions.setText("NONE");
     }
 
     private String getPermissions(String[] requestedPermissions) {
