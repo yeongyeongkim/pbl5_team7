@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/mainLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="20"
+    android:layout_margin="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <Button
+            android:id="@+id/bnt_setting_open"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/setting_icon"
+            android:textSize="50dp"
+            android:textFontWeight="50"
+            android:textColor="@color/lightgrey"
+            android:onClick="onClick"
+
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <RelativeLayout
+            android:id="@+id/search_box"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rectangle"
+            android:onClick="onClick"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/search_icon"
+                android:clickable="true"
+                android:outlineAmbientShadowColor="@color/point"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:background = "@android:color/transparent"
+            />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bnt_master"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/search_box"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/percent_icon"
+            android:onClick="onClick"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ListView
+                android:id="@+id/app_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
